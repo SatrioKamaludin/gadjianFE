@@ -1,0 +1,52 @@
+.menu {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-start;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 20vw;
+  height: 100vh;
+  z-index: 2;
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 10px;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-height: 100px;
+      max-width: 100px;
+    }
+
+    .allmenu {
+      .listmenu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 40px;
+
+        .thumbnail {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 10px;
+        }
+      }
+
+      .active {
+        color: #23c7c6;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hidemenu {
+    display: none;
+  }
+}

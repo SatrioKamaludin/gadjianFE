@@ -1,0 +1,323 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 23%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 74vw;
+  height: 81vh;
+  background-color: #dbdbdb;
+}
+
+.main .employeeSection {
+  margin: 20px;
+}
+
+.main .employeeSection .Navbar {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+}
+
+.main .employeeSection .Navbar .leftNavbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 12px;
+}
+
+.main .employeeSection .Navbar .leftNavbar .personnellist {
+  color: #23c7c6;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main .employeeSection .Navbar .leftNavbar .listofallperson {
+  font-size: 15px;
+  color: black;
+}
+
+.main .employeeSection .Navbar .rightNavbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin-right: 12px;
+  margin-left: 20px;
+  height: 50px;
+}
+
+.main .employeeSection .Navbar .rightNavbar .searchEmployee .searchIcon {
+  position: relative;
+  left: 26px;
+  top: 2px;
+  color: #23c7c6;
+}
+
+.main .employeeSection .Navbar .rightNavbar .inputfield {
+  padding-left: 32px;
+  height: 38px;
+}
+
+.main .employeeSection .Navbar .rightNavbar .addEmployee {
+  margin-left: 18px;
+  margin-bottom: 25px;
+}
+
+.main .employeeSection .Navbar .rightNavbar .addEmployee .btn {
+  background-color: #23c7c6;
+  color: white;
+  font-weight: 500;
+}
+
+.main .employeeWeb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .employeeMobile {
+  display: none;
+}
+
+.main .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 1.2rem;
+  gap: 50px;
+}
+
+.main .pagination .prev:hover,
+.main .pagination .next:hover {
+  cursor: pointer;
+}
+
+.main .cardsTest {
+  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.main .cardsTest .Card {
+  border-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.main .cardsTest .Card .card-body {
+  padding: 0.25rem 0.25rem;
+}
+
+.main .cardsTest .Card .card-body .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0rem 0rem;
+  background-color: white;
+  border: none;
+  gap: 30px;
+}
+
+.main .cardsTest .Card .card-body .card-header .personnelID {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.main .cardsTest .Card .card-body .lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: gainsboro;
+  height: 3px;
+  width: 100%;
+}
+
+.main .cardsTest .Card .card-body .info .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.main .cardsTest .Card .card-body .info .photo .imgcard {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.main .cardsTest .Card .card-body .info .biodata {
+  margin-left: 10px;
+}
+
+.main .cardsTest .Card .card-body .info .biodata .infoTitle {
+  font-size: medium;
+  font-weight: 650;
+}
+
+.main .cardsTest .Card .card-body .info .biodata .infoContain {
+  font-size: medium;
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 65px;
+    left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .employeeSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 400px;
+    height: auto;
+  }
+  .main .employeeSection .Navbar {
+    height: 250px;
+    margin: -20px;
+    margin-bottom: -20px;
+    margin-top: 5px;
+  }
+  .main .employeeSection .Navbar .leftNavbar .personnellist {
+    margin-top: -15px;
+    font-size: 44px;
+  }
+  .main .employeeSection .Navbar .leftNavbar .listofallperson {
+    font-size: 25px;
+    font-weight: 500;
+    color: gray;
+  }
+  .main .employeeSection .Navbar .rightNavbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5;
+  }
+  .main .employeeSection .Navbar .rightNavbar .searchEmployee {
+    left: 23px;
+    top: 2px;
+  }
+  .main .employeeSection .Navbar .rightNavbar .searchEmployee .searchIcon {
+    top: 0px;
+  }
+  .main .employeeSection .Navbar .rightNavbar .searchEmployee .inputfield {
+    width: 340px;
+  }
+  .main .employeeSection .Navbar .rightNavbar .addEmployee .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-weight: 700;
+    width: 345px;
+  }
+  .main .employeeSection .Navbar .rightNavbar .addEmployee .btn .plusIcon {
+    font-size: x-large;
+  }
+  .main .employeeWeb {
+    display: none;
+  }
+  .main .employeeMobile {
+    display: -ms-grid;
+    display: grid;
+  }
+  .main .employeeMobile .cardsTest {
+    margin: 12px;
+  }
+  .main .employeeMobile .cardsTest .Card .card-body {
+    padding: 0.25rem 1.6rem;
+  }
+  .main .employeeMobile .cardsTest .Card .card-body .card-header {
+    gap: 160px;
+  }
+  .main .employeeMobile .cardsTest .Card .card-body .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+  }
+  .main .employeeMobile .cardsTest .Card .card-body .info .photo .imgcard {
+    width: 100px;
+    height: 100px;
+  }
+  .main .employeeMobile .cardsTest .Card .card-body .info .biodata .hideInfoTitle {
+    display: none;
+  }
+  .main .employeeMobile .cardsTest .Card .card-body .info .biodata .hideInfoContain {
+    display: none;
+  }
+  .main .hidepaging {
+    display: none;
+  }
+}
+/*# sourceMappingURL=employeeCard.css.map */

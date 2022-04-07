@@ -1,0 +1,148 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 65px;
+  background-color: white;
+  z-index: 1;
+
+  .section {
+    display: flex;
+    position: relative;
+    max-height: 65px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+    padding-right: 20px;
+
+    .header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      max-height: 65px;
+      background-color: white;
+      z-index: 1;
+
+      .section {
+        display: flex;
+        position: relative;
+        max-height: 65px;
+        color: black;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 10px;
+
+        .logoside {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .bars span {
+            color: gray;
+          }
+
+          .thelogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+
+            .insidelogo {
+              overflow: hidden;
+              padding-left: 17px;
+              padding-right: 17px;
+              width: auto;
+            }
+          }
+        }
+
+        .loginside {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .welcome {
+            color: #23c7c6;
+            font-weight: 600;
+          }
+
+          .photo {
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            margin-left: 10px;
+
+            .insidephoto {
+              overflow: hidden;
+              width: auto;
+
+              .borderimg {
+                border-radius: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .hidewelcome {
+        display: none;
+      }
+    }
+
+    .logoside {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .bars span {
+        color: gray;
+      }
+
+      .thelogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+
+        .insidelogo {
+          overflow: hidden;
+          padding-left: 17px;
+          padding-right: 17px;
+          width: auto;
+        }
+      }
+    }
+
+    .loginside {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .welcome {
+        color: #23c7c6;
+        font-weight: 600;
+      }
+
+      .photo {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+
+        .insidephoto {
+          overflow: hidden;
+          width: auto;
+
+          .borderimg {
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}
